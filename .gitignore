@@ -1,7 +1,9 @@
 .DS_Store
 node_modules
 /dist
-
+target
+*.iml
+OSSUtil.java
 
 # local env files
 .env.local
