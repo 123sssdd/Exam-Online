@@ -9,7 +9,7 @@ import echarts from "echarts";
 Vue.prototype.$echarts = echarts;
 
 //配置请求根路径
-axios.defaults.baseURL = "http://localhost:8888/";
+axios.defaults.baseURL = "http://localhost:8868/";
 //axios拦截器拦截每一个请求,有token就配置头信息的token
 axios.interceptors.request.use(
   (config) => {
